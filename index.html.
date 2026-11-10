@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Baitul Ilm Library - A dedicated learning and study space in Pulwama, Jammu and Kashmir.">
+  <title>Baitul Ilm Library | Learn. Focus. Achieve.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>📍 Pulwama, Jammu & Kashmir</span>
+      <span>Dedicated to learning and excellence</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <div class="brand-mark">BI</div>
+        <div>
+          <strong>BAITUL ILM</strong>
+          <small>LIBRARY & STUDY CENTRE</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#membership">Membership</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-login" href="#portals">Portal Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">YOUR SPACE TO GROW</span>
+        <h1>A Quiet Place.<br><span>A Bigger Dream.</span></h1>
+        <p>
+          Build your future in an environment designed for concentration,
+          consistency and learning.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#membership">Explore Membership</a>
+          <a class="btn btn-outline" href="#about">Discover Our Library</a>
+        </div>
+        <div class="hero-note">FOCUS TODAY. ACHIEVE TOMORROW.</div>
+      </div>
+    </section>
+
+    <section class="welcome section" id="about">
+      <div class="container welcome-grid">
+        <div>
+          <span class="eyebrow dark-eyebrow">WELCOME TO BAITUL ILM</span>
+          <h2>Where dedication<br>meets opportunity.</h2>
+          <p>
+            Baitul Ilm Library is designed to provide students with a
+            dedicated environment for independent learning and focused study.
+          </p>
+          <p>
+            Whether you are preparing for competitive examinations or
+            working towards your academic goals, your learning journey
+            deserves a peaceful place.
+          </p>
+          <a href="#contact" class="text-link">Get in touch with us →</a>
+        </div>
+        <div class="welcome-card">
+          <div class="welcome-card-icon">✦</div>
+          <h3>Learn with purpose.</h3>
+          <p>Every day is an opportunity to move one step closer to your goals.</p>
+          <div class="quote-line"></div>
+          <span>BAITUL ILM LIBRARY</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities section" id="facilities">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark-eyebrow">THE RIGHT ENVIRONMENT</span>
+          <h2>Designed for better learning.</h2>
+          <p>Explore the facilities and services available at our library.</p>
+        </div>
+
+        <div class="facility-grid">
+          <article class="facility-card">
+            <div class="facility-icon">📚</div>
+            <h3>Dedicated Study Space</h3>
+            <p>A space where students can focus on their academic goals.</p>
+          </article>
+          <article class="facility-card">
+            <div class="facility-icon">🤫</div>
+            <h3>Quiet Environment</h3>
+            <p>A learning atmosphere that encourages concentration.</p>
+          </article>
+          <article class="facility-card">
+            <div class="facility-icon">🪑</div>
+            <h3>Student Seating</h3>
+            <p>Dedicated seating arrangements for registered members.</p>
+          </article>
+          <article class="facility-card">
+            <div class="facility-icon">📖</div>
+            <h3>Learning Resources</h3>
+            <p>A place to study, read and work towards your ambitions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="membership section" id="membership">
+      <div class="container membership-inner">
+        <div class="section-heading">
+          <span class="eyebrow">BECOME A MEMBER</span>
+          <h2>Your study journey starts here.</h2>
+          <p>Contact the library to learn about current membership plans, fees and availability.</p>
+        </div>
+        <div class="membership-card">
+          <div class="membership-card-top">
+            <span>LIBRARY MEMBERSHIP</span>
+            <span class="membership-symbol">✦</span>
+          </div>
+          <h3>Make space for your dreams.</h3>
+          <p>Ask us about available plans, seating and membership conditions.</p>
+          <a class="btn btn-primary" href="#contact">Enquire About Membership</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark-eyebrow">A LOOK INSIDE</span>
+          <h2>Our library space.</h2>
+          <p>Photos of the library will be added here.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-placeholder gallery-large">
+            <span>LIBRARY PHOTO 01</span>
+          </div>
+          <div class="gallery-placeholder">
+            <span>LIBRARY PHOTO 02</span>
+          </div>
+          <div class="gallery-placeholder">
+            <span>LIBRARY PHOTO 03</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portals section" id="portals">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark-eyebrow">ONLINE ACCESS</span>
+          <h2>Library member access.</h2>
+          <p>Dedicated online access for students and library management.</p>
+        </div>
+        <div class="portal-grid">
+          <div class="portal-card">
+            <div class="portal-icon">🎓</div>
+            <h3>Student Portal</h3>
+            <p>Access your membership information and payment records.</p>
+            <span class="coming-soon">Portal setup coming soon</span>
+          </div>
+          <div class="portal-card">
+            <div class="portal-icon">🔐</div>
+            <h3>Owner Dashboard</h3>
+            <p>Manage memberships, payments, cabinets and library records.</p>
+            <span class="coming-soon">Portal setup coming soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">LET'S CONNECT</span>
+          <h2>Have a question?<br>We are here to help.</h2>
+          <p>Contact Baitul Ilm Library for membership enquiries and further information.</p>
+          <div class="contact-details">
+            <div><span>📍</span><p><strong>Location</strong><br>Pulwama, Jammu & Kashmir<br><small>Exact address to be added</small></p></div>
+            <div><span>📞</span><p><strong>Phone / WhatsApp</strong><br>Contact number to be added</p></div>
+            <div><span>🕒</span><p><strong>Opening Hours</strong><br>Timings to be updated</p></div>
+          </div>
+        </div>
+        <div class="contact-box">
+          <h3>Visit us</h3>
+          <p>We welcome enquiries from students interested in joining our library.</p>
+          <a href="#membership" class="btn btn-primary btn-full">Membership Enquiry</a>
+          <div class="map-placeholder">LIBRARY LOCATION MAP<br><small>Map will be added here</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand footer-brand">
+        <div class="brand-mark">BI</div>
+        <div>
+          <strong>BAITUL ILM</strong>
+          <small>LIBRARY & STUDY CENTRE</small>
+        </div>
+      </div>
+      <p>Learn. Focus. Achieve.</p>
+      <span>© <span id="currentYear"></span> Baitul Ilm Library. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
